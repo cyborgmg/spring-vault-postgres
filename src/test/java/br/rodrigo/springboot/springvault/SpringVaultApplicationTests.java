@@ -1,4 +1,4 @@
-package br.pedro.springboot.springvault;
+package br.rodrigo.springboot.springvault;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

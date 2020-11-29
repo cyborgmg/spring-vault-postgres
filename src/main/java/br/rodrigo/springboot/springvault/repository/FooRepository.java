@@ -1,6 +1,6 @@
-package br.pedro.springboot.springvault.repository;
+package br.rodrigo.springboot.springvault.repository;
 
-import br.pedro.springboot.springvault.domain.Foo;
+import br.rodrigo.springboot.springvault.domain.Foo;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

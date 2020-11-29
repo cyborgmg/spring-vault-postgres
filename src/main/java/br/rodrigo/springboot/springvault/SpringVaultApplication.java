@@ -1,6 +1,6 @@
-package br.pedro.springboot.springvault;
+package br.rodrigo.springboot.springvault;
 
-import br.pedro.springboot.springvault.repository.FooRepository;
+import br.rodrigo.springboot.springvault.repository.FooRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -19,6 +19,5 @@ public class SpringVaultApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		fooRepository.findAll().forEach(foo->System.out.println(foo.getId()));
-		System.exit(0);
 	}
 }

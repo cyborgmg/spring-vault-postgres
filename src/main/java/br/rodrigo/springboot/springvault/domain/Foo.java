@@ -1,4 +1,4 @@
-package br.pedro.springboot.springvault.domain;
+package br.rodrigo.springboot.springvault.domain;
 
 import javax.persistence.*;
 import java.math.BigInteger;
